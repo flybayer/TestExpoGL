@@ -1855,6 +1855,37 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
+expo-camera-interface@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/expo-camera-interface/-/expo-camera-interface-1.0.2.tgz#228f035ddb2960d4a62f1875f13ffe92fb65110c"
+  dependencies:
+    expo-core "~1.1.0"
+
+expo-core@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-1.1.0.tgz#c6c81282cc33b7de3913e5c3e46462b8e8f733ec"
+
+expo-file-system-interface@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/expo-file-system-interface/-/expo-file-system-interface-1.0.2.tgz#7803a9a776fd9aa1b22151ff5eb404c77fbd92f7"
+  dependencies:
+    expo-core "~1.1.0"
+
+expo-gl-cpp@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/expo-gl-cpp/-/expo-gl-cpp-1.0.2.tgz#5d1d22325065e80664491a79383674c914b2d034"
+  dependencies:
+    expo-core "~1.1.0"
+
+expo-gl@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/expo-gl/-/expo-gl-1.0.2.tgz#730811ab43b25ec68a8ebee036292589238342e0"
+  dependencies:
+    expo-camera-interface "~1.0.2"
+    expo-core "~1.1.0"
+    expo-file-system-interface "~1.0.2"
+    expo-gl-cpp "~1.0.2"
+
 extend-shallow@^1.1.2:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/extend-shallow/-/extend-shallow-1.1.4.tgz#19d6bf94dfc09d76ba711f39b872d21ff4dd9071"
