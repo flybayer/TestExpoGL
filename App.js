@@ -30,7 +30,10 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
 
-        <GLView style={{ flex: 1 }} onContextCreate={this.onContextCreate} />
+        <GLView
+          style={{ flex: 1, borderWidth: 1, width: "100%" }}
+          onContextCreate={this.onContextCreate}
+        />
       </View>
     )
   }
