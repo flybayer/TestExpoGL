@@ -12,8 +12,10 @@
     "expo-gl": "1.0.2",
     "expo-image-loader-interface": "1.0.0",
     "expo-react-native-adapter": "1.1.1",
+    "expo-three": "3.0.0-alpha.4",
     "react": "16.5.0",
-    "react-native": "0.57.1"
+    "react-native": "0.57.1",
+    "three": "0.96.0"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",

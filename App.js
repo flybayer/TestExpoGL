@@ -9,6 +9,8 @@
 import React, { Component } from "react"
 import { Platform, StyleSheet, Text, View } from "react-native"
 import { GLView } from "expo-gl"
+import ExpoTHREE from "expo-three"
+import { THREE } from "expo-three"
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -18,9 +20,7 @@ const instructions = Platform.select({
 type Props = {}
 export default class App extends Component<Props> {
   onContextCreate = gl => {
-    gl.clearColor(0.0, 0.0, 0.0, 1.0)
-    gl.clear(gl.COLOR_BUFFER_BIT)
-    gl.endFrameEXP()
+    const renderer = new ExpoTHREE.Renderer({ gl })
   }
 
   render() {
