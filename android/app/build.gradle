@@ -139,6 +139,10 @@ android {
 dependencies {
 		compile project(':expo-core')
 		compile project(':expo-react-native-adapter')
+		compile project(':expo-gl')
+		compile project(':expo-gl-cpp')
+		compile project(':expo-camera-interface')
+		compile project(':expo-file-system-interface')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
