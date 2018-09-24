@@ -7,6 +7,10 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+import expo.adapters.react.ModuleRegistryAdapter;
+import expo.adapters.react.ReactAdapterPackage;
+import expo.core.ModuleRegistryProvider;
+import expo.core.interfaces.Package;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,7 +26,8 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage()
+          new MainReactPackage(),
+          new ModuleRegistryAdapter(mModuleRegistryProvider)
       );
     }
 
@@ -42,4 +47,9 @@ public class MainApplication extends Application implements ReactApplication {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
   }
+
+	private final ModuleRegistryProvider mModuleRegistryProvider = new ModuleRegistryProvider(Arrays.<Package>asList(
+			new ReactAdapterPackage()
+		)
+	);
 }
