@@ -11,6 +11,8 @@ import expo.adapters.react.ModuleRegistryAdapter;
 import expo.adapters.react.ReactAdapterPackage;
 import expo.core.ModuleRegistryProvider;
 import expo.core.interfaces.Package;
+import expo.modules.gl.GLPackage;
+
 
 import java.util.Arrays;
 import java.util.List;
@@ -49,7 +51,8 @@ public class MainApplication extends Application implements ReactApplication {
   }
 
 	private final ModuleRegistryProvider mModuleRegistryProvider = new ModuleRegistryProvider(Arrays.<Package>asList(
-			new ReactAdapterPackage()
+			new ReactAdapterPackage(),
+      new GLPackage()
 		)
 	);
 }
