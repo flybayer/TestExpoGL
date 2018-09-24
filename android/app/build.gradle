@@ -139,6 +139,9 @@ android {
 dependencies {
 		compile project(':expo-core')
 		compile project(':expo-react-native-adapter')
+		compile project(':expo-font-interface')
+		compile project(':expo-image-loader-interface')
+		compile project(':expo-permissions-interface')
 		compile project(':expo-gl')
 		compile project(':expo-gl-cpp')
 		compile project(':expo-camera-interface')

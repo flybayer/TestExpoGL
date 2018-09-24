@@ -15,7 +15,6 @@ import expo.core.ModuleRegistryProvider;
 import expo.core.interfaces.Package;
 import expo.modules.gl.GLPackage;
 
-
 import java.util.Arrays;
 import java.util.List;
 
