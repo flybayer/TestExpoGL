@@ -7,8 +7,10 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
+
 import expo.adapters.react.ModuleRegistryAdapter;
 import expo.adapters.react.ReactAdapterPackage;
+import expo.adapters.react.ReactModuleRegistryProvider;
 import expo.core.ModuleRegistryProvider;
 import expo.core.interfaces.Package;
 import expo.modules.gl.GLPackage;
@@ -50,7 +52,7 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
   }
 
-	private final ModuleRegistryProvider mModuleRegistryProvider = new ModuleRegistryProvider(Arrays.<Package>asList(
+	private final ModuleRegistryProvider mModuleRegistryProvider = new ReactModuleRegistryProvider(Arrays.<Package>asList(
 			new ReactAdapterPackage(),
       new GLPackage()
 		)
