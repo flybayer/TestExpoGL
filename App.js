@@ -9,7 +9,7 @@
 import React, { Component } from "react"
 import { Platform, StyleSheet, Text, View } from "react-native"
 import { GLView } from "expo-gl"
-import ExpoPixi from "expo-pixi"
+import ExpoPixi, { PIXI } from "expo-pixi"
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -20,6 +20,14 @@ type Props = {}
 export default class App extends Component<Props> {
   onContextCreate = context => {
     const app = ExpoPixi.application({ context })
+    const rectangle = new PIXI.Graphics()
+    rectangle.lineStyle(3, 0xff3300, 1)
+    // rectangle.beginFill(0x66ccff)
+    rectangle.drawRect(0, 0, 100, 100)
+    rectangle.endFill()
+    rectangle.x = 170
+    rectangle.y = 170
+    app.stage.addChild(rectangle)
   }
 
   render() {
