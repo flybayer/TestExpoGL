@@ -7,10 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "expo-core": "1.1.0",
-    "expo-font-interface": "1.0.0",
-    "expo-gl": "1.0.2",
-    "expo-image-loader-interface": "1.0.0",
+    "expo": "31.0.5",
+    "expo-core": "1.2.0",
+    "expo-font-interface": "1.1.0",
+    "expo-gl": "1.1.0",
+    "expo-image-loader-interface": "1.1.0",
     "expo-react-native-adapter": "1.1.1",
     "react": "16.6.1",
     "react-native": "0.57.5"
