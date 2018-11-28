@@ -1,22 +1,22 @@
 PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
-  - EXCameraInterface (1.0.2):
+  - EXCameraInterface (1.1.0):
     - EXCore
-  - EXCore (1.1.0)
-  - EXFileSystemInterface (1.0.2):
+  - EXCore (1.2.0)
+  - EXFileSystemInterface (1.1.0):
     - EXCore
-  - EXFontInterface (1.0.0):
+  - EXFontInterface (1.1.0):
     - EXCore
-  - EXGL (1.0.2):
+  - EXGL (1.1.0):
     - EXCameraInterface
     - EXCore
     - EXFileSystemInterface
     - EXGL-CPP
-  - EXGL-CPP (1.0.2):
-    - EXGL-CPP/UEXGL (= 1.0.2)
-  - EXGL-CPP/UEXGL (1.0.2)
-  - EXImageLoaderInterface (1.0.0):
+  - EXGL-CPP (1.1.0):
+    - EXGL-CPP/UEXGL (= 1.1.0)
+  - EXGL-CPP/UEXGL (1.1.0)
+  - EXImageLoaderInterface (1.1.0):
     - EXCore
   - EXReactNativeAdapter (1.1.1):
     - EXCore
@@ -27,57 +27,57 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - React (0.57.1):
-    - React/Core (= 0.57.1)
-  - React/ART (0.57.1):
+  - React (0.57.5):
+    - React/Core (= 0.57.5)
+  - React/ART (0.57.5):
     - React/Core
-  - React/Core (0.57.1):
-    - yoga (= 0.57.1.React)
-  - React/CxxBridge (0.57.1):
+  - React/Core (0.57.5):
+    - yoga (= 0.57.5.React)
+  - React/CxxBridge (0.57.5):
     - Folly (= 2016.10.31.00)
     - React/Core
     - React/cxxreact
-  - React/cxxreact (0.57.1):
+  - React/cxxreact (0.57.5):
     - boost-for-react-native (= 1.63.0)
     - Folly (= 2016.10.31.00)
     - React/jschelpers
     - React/jsinspector
-  - React/DevSupport (0.57.1):
+  - React/DevSupport (0.57.5):
     - React/Core
     - React/RCTWebSocket
-  - React/fishhook (0.57.1)
-  - React/jschelpers (0.57.1):
+  - React/fishhook (0.57.5)
+  - React/jschelpers (0.57.5):
     - Folly (= 2016.10.31.00)
     - React/PrivateDatabase
-  - React/jsinspector (0.57.1)
-  - React/PrivateDatabase (0.57.1)
-  - React/RCTActionSheet (0.57.1):
+  - React/jsinspector (0.57.5)
+  - React/PrivateDatabase (0.57.5)
+  - React/RCTActionSheet (0.57.5):
     - React/Core
-  - React/RCTAnimation (0.57.1):
+  - React/RCTAnimation (0.57.5):
     - React/Core
-  - React/RCTBlob (0.57.1):
+  - React/RCTBlob (0.57.5):
     - React/Core
-  - React/RCTCameraRoll (0.57.1):
+  - React/RCTCameraRoll (0.57.5):
     - React/Core
     - React/RCTImage
-  - React/RCTGeolocation (0.57.1):
+  - React/RCTGeolocation (0.57.5):
     - React/Core
-  - React/RCTImage (0.57.1):
+  - React/RCTImage (0.57.5):
     - React/Core
     - React/RCTNetwork
-  - React/RCTLinkingIOS (0.57.1):
+  - React/RCTLinkingIOS (0.57.5):
     - React/Core
-  - React/RCTNetwork (0.57.1):
+  - React/RCTNetwork (0.57.5):
     - React/Core
-  - React/RCTText (0.57.1):
+  - React/RCTText (0.57.5):
     - React/Core
-  - React/RCTVibration (0.57.1):
+  - React/RCTVibration (0.57.5):
     - React/Core
-  - React/RCTWebSocket (0.57.1):
+  - React/RCTWebSocket (0.57.5):
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - yoga (0.57.1.React)
+  - yoga (0.57.5.React)
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
@@ -142,19 +142,19 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
-  EXCameraInterface: 58c53f9feaeabca7ddc71bf22690a0c9b49fdb6b
-  EXCore: 70e5cb8627048c5373820d6372faa54cbefb3b12
-  EXFileSystemInterface: effe9ede025f8d487fbdfbc59b4e5d6fd1c6c2fd
-  EXFontInterface: c4dd21f001a9a4117c68f2d4e4d98d5e9a716852
-  EXGL: ce6f87dc239b56a0c7c8e0bcb18c96c64a6db27f
-  EXGL-CPP: a7fd8224fdc8a2503ba5531ceca1b02c4432f2b2
-  EXImageLoaderInterface: e6aa5b14ab3376c4771b18b798aaa6b696d66001
+  EXCameraInterface: 6d990173e3f6355e575f44b38dcf61d0c90bc47e
+  EXCore: 81304a0284b7f2e0f691b8a6bc642854e730f5e2
+  EXFileSystemInterface: 8e1225e4e1776ea7abf997a7ded593b4b8e86863
+  EXFontInterface: 06126ec4f6a67415426074c3383a82b241f087c1
+  EXGL: 9a5dd454a7ed9660b25b71d82d8009ac9bd6f85a
+  EXGL-CPP: 46b589a3ed0c59ae2e7f9434897b66cd8dd2e70c
+  EXImageLoaderInterface: 3f460f6ff344ba6c4e00621806c0d1d76249cd8f
   EXReactNativeAdapter: 93f6b26a2bb583e653e5fab04377704840e1a0e8
   Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 9ef45c215a34311e85d11816ca8bfade6fe02628
+PODFILE CHECKSUM: 372d1103e7c6b2af2ed8f9491a63d6facdb49d75
 
 COCOAPODS: 1.5.3
