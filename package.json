@@ -14,14 +14,13 @@
     "expo-image-loader-interface": "1.1.0",
     "expo-pixi": "0.3.2",
     "expo-react-native-adapter": "1.1.1",
-    "react": "16.6.1",
-    "react-native": "0.57.5"
+    "react": "16.6.3",
+    "react-native": "0.57.7"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
     "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.49.2",
-    "react-test-renderer": "16.5.0"
+    "metro-react-native-babel-preset": "0.49.2"
   },
   "jest": {
     "preset": "react-native"
