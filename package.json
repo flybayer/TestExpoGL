@@ -14,7 +14,7 @@
     "expo-image-loader-interface": "1.1.0",
     "expo-react-native-adapter": "1.1.1",
     "react": "16.6.1",
-    "react-native": "0.57.5"
+    "react-native": "0.57.7"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",
