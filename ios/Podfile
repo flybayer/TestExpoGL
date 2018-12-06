@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'TestExpoGL' do
   # React dependencies
@@ -37,6 +37,7 @@ target 'TestExpoGL' do
   pod 'EXReactNativeAdapter', path: '../node_modules/expo-react-native-adapter/ios'
   pod 'EXImageLoaderInterface', path: '../node_modules/expo-image-loader-interface/ios'
   pod 'EXFontInterface', path: '../node_modules/expo-font-interface/ios'
+  pod 'EXFileSystem', path: '../node_modules/expo-file-system/ios'
 
   # expo-gl
   pod 'EXFileSystemInterface', path: '../node_modules/expo-file-system-interface/ios'
