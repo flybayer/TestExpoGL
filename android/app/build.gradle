@@ -145,6 +145,7 @@ dependencies {
 		compile project(':expo-gl')
 		compile project(':expo-gl-cpp')
 		compile project(':expo-camera-interface')
+    compile project(':expo-file-system')
 		compile project(':expo-file-system-interface')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"

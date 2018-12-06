@@ -1815,6 +1815,13 @@ expo-analytics-segment@~1.1.0:
   dependencies:
     expo-core "~1.2.0"
 
+expo-asset@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-1.0.2.tgz#4cc477679ce15521eeeced886f0718c3b099bc6c"
+  integrity sha512-RGSuzgSO30qhnfYIlnM+fiBT1bKBma8j1Tvap1KZ5DmjWTKkxq/zSYw+FvEkKhdVUO2BtZkLWT9h+gicQ9CAFw==
+  dependencies:
+    expo-core "~1.0.1"
+
 expo-asset@~1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/expo-asset/-/expo-asset-1.1.1.tgz#f1957b39a120bd9177f1fad9b8e2a20dd3746e86"
@@ -1877,6 +1884,11 @@ expo-contacts@~1.1.0:
 expo-core@1.2.0, expo-core@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-1.2.0.tgz#c8fecf18b36a5b583bcb69a0227d4a6e45b56f17"
+
+expo-core@~1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/expo-core/-/expo-core-1.0.1.tgz#f71c43c1d477e79b259507ff708f487603eed5df"
+  integrity sha512-LNGL4WU1ZO8SVVrwM/ObTH1jagZirWQipviGKDq/D0ndFy64fy8y41dXwxsmXXVyxZvmQmwCTYrC8uMJ0VRzPA==
 
 expo-core@~1.1.0:
   version "1.1.0"
